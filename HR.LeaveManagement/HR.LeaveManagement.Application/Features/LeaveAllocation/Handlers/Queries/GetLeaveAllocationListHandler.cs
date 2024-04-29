@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HR.LeaveManagement.Application.Features.LeaveAllocation.Handlers.Queries
 {
-    internal class GetLeaveAllocationListHandler
+    public class GetLeaveAllocationListHandler
     {
     }
 }
