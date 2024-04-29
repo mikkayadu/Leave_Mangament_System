@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Michael  Adu-Gyamfi\\IdeaProjects\\A2SV_Project_Phase\\HR.LeaveManagement\\HR.LeaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {}
+    "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Michael  Adu-Gyamfi\\IdeaProjects\\A2SV_Project_Phase\\HR.LeaveManagement\\HR.LeaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {
+    "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Michael  Adu-Gyamfi\\IdeaProjects\\A2SV_Project_Phase\\HR.LeaveManagement\\HR.LeaveManagement.Domain\\HR.LeaveManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Domain\\HR.LeaveManagement.Domain.csproj",
         "projectName": "HR.LeaveManagement.Domain",
-        "projectPath": "C:\\Users\\Michael  Adu-Gyamfi\\IdeaProjects\\A2SV_Project_Phase\\HR.LeaveManagement\\HR.LeaveManagement.Domain\\HR.LeaveManagement.Domain.csproj",
+        "projectPath": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Domain\\HR.LeaveManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Michael  Adu-Gyamfi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Michael  Adu-Gyamfi\\IdeaProjects\\A2SV_Project_Phase\\HR.LeaveManagement\\HR.LeaveManagement.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
