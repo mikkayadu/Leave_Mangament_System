@@ -3,44 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\features\\leaveallocation\\handlers\\queries\\getleaveallocationlisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\features\\leaveallocation\\handlers\\queries\\getleaveallocationlisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\features\\leavetypes\\requests\\commands\\createleavetyperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\features\\leavetypes\\requests\\commands\\createleavetyperequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\features\\leavetypes\\handlers\\commands\\createleavetyperequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\features\\leavetypes\\handlers\\commands\\createleavetyperequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\dtos\\leaveallocation\\createleaveallocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\dtos\\leaveallocation\\createleaveallocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\dtos\\leaveallocation\\leaveallocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\dtos\\leaveallocation\\leaveallocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\dtos\\leaverequest\\leaverequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\dtos\\leaverequest\\leaverequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\dtos\\leaverequest\\createleaverequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\dtos\\leaverequest\\createleaverequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\dtos\\leavetype\\createleavetypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\dtos\\leavetype\\createleavetypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\dtos\\leavetype\\leavetypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\dtos\\leavetype\\leavetypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\features\\leaverequests\\handlers\\queries\\getleaverequestdetailrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\features\\leaverequests\\handlers\\queries\\getleaverequestdetailrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\features\\leaverequests\\requests\\queries\\getleaverequestdetailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\features\\leaverequests\\requests\\queries\\getleaverequestdetailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\features\\leaverequests\\handlers\\queries\\getleaverequestlistrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\features\\leaverequests\\handlers\\queries\\getleaverequestlistrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\features\\leaveallocation\\handlers\\queries\\getleaveallocationlisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\features\\leaveallocation\\handlers\\queries\\getleaveallocationlisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\features\\leavetypes\\handlers\\queries\\getleavetypelistrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\features\\leavetypes\\handlers\\queries\\getleavetypelistrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\features\\leavetypes\\requests\\queries\\getleavetypedetailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\features\\leavetypes\\requests\\queries\\getleavetypedetailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\features\\leaverequests\\requests\\queries\\getleaverequestlistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\features\\leaverequests\\requests\\queries\\getleaverequestlistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\features\\leavetypes\\requests\\queries\\getleavetypelistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\features\\leavetypes\\requests\\queries\\getleavetypelistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\features\\leavetypes\\handlers\\queries\\getleavetypedetailrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\features\\leavetypes\\handlers\\queries\\getleavetypedetailrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|c:\\users\\michael  adu-gyamfi\\documents\\leave_mangament_system\\hr.leavemanagement\\hr.leavemanagement.application\\dtos\\leavetypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C5076D-6B38-4431-88FA-7FA65B3C0D41}|HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj|solutionrelative:hr.leavemanagement.application\\dtos\\leavetypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,134 +54,147 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateLeaveTypeRequestHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes\\Handlers\\Commands\\CreateLeaveTypeRequestHandler.cs",
+              "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\Features\\LeaveTypes\\Handlers\\Commands\\CreateLeaveTypeRequestHandler.cs",
+              "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes\\Handlers\\Commands\\CreateLeaveTypeRequestHandler.cs",
+              "RelativeToolTip": "HR.LeaveManagement.Application\\Features\\LeaveTypes\\Handlers\\Commands\\CreateLeaveTypeRequestHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T22:32:01.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CreateLeaveTypeRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes\\Requests\\Commands\\CreateLeaveTypeRequest.cs",
+              "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\Features\\LeaveTypes\\Requests\\Commands\\CreateLeaveTypeRequest.cs",
+              "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes\\Requests\\Commands\\CreateLeaveTypeRequest.cs",
+              "RelativeToolTip": "HR.LeaveManagement.Application\\Features\\LeaveTypes\\Requests\\Commands\\CreateLeaveTypeRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T22:30:47.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateLeaveTypeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveType\\CreateLeaveTypeDTO.cs",
+              "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\DTOs\\LeaveType\\CreateLeaveTypeDTO.cs",
+              "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveType\\CreateLeaveTypeDTO.cs",
+              "RelativeToolTip": "HR.LeaveManagement.Application\\DTOs\\LeaveType\\CreateLeaveTypeDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T22:16:49.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LeaveTypeDto.cs",
+              "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveType\\LeaveTypeDto.cs",
+              "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\DTOs\\LeaveType\\LeaveTypeDto.cs",
+              "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveType\\LeaveTypeDto.cs",
+              "RelativeToolTip": "HR.LeaveManagement.Application\\DTOs\\LeaveType\\LeaveTypeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T22:16:22.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateLeaveAllocationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveAllocation\\CreateLeaveAllocationDTO.cs",
+              "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\DTOs\\LeaveAllocation\\CreateLeaveAllocationDTO.cs",
+              "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveAllocation\\CreateLeaveAllocationDTO.cs",
+              "RelativeToolTip": "HR.LeaveManagement.Application\\DTOs\\LeaveAllocation\\CreateLeaveAllocationDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T22:15:28.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeaveAllocationDto.cs",
+              "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveAllocation\\LeaveAllocationDto.cs",
+              "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\DTOs\\LeaveAllocation\\LeaveAllocationDto.cs",
+              "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveAllocation\\LeaveAllocationDto.cs",
+              "RelativeToolTip": "HR.LeaveManagement.Application\\DTOs\\LeaveAllocation\\LeaveAllocationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T22:14:46.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LeaveRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveRequest\\LeaveRequestDto.cs",
+              "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\DTOs\\LeaveRequest\\LeaveRequestDto.cs",
+              "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveRequest\\LeaveRequestDto.cs",
+              "RelativeToolTip": "HR.LeaveManagement.Application\\DTOs\\LeaveRequest\\LeaveRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T22:14:03.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateLeaveRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveRequest\\CreateLeaveRequestDto.cs",
+              "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\DTOs\\LeaveRequest\\CreateLeaveRequestDto.cs",
+              "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveRequest\\CreateLeaveRequestDto.cs",
+              "RelativeToolTip": "HR.LeaveManagement.Application\\DTOs\\LeaveRequest\\CreateLeaveRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T22:13:56.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "GetLeaveAllocationListHandler.cs",
               "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveAllocation\\Handlers\\Queries\\GetLeaveAllocationListHandler.cs",
               "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\Features\\LeaveAllocation\\Handlers\\Queries\\GetLeaveAllocationListHandler.cs",
               "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveAllocation\\Handlers\\Queries\\GetLeaveAllocationListHandler.cs",
               "RelativeToolTip": "HR.LeaveManagement.Application\\Features\\LeaveAllocation\\Handlers\\Queries\\GetLeaveAllocationListHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwCIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T17:18:38.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "GetLeaveRequestDetailRequestHandler.cs",
               "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveRequests\\Handlers\\Queries\\GetLeaveRequestDetailRequestHandler.cs",
               "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\Features\\LeaveRequests\\Handlers\\Queries\\GetLeaveRequestDetailRequestHandler.cs",
               "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveRequests\\Handlers\\Queries\\GetLeaveRequestDetailRequestHandler.cs",
               "RelativeToolTip": "HR.LeaveManagement.Application\\Features\\LeaveRequests\\Handlers\\Queries\\GetLeaveRequestDetailRequestHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAhAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T16:48:06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetLeaveRequestDetailRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveRequests\\Requests\\Queries\\GetLeaveRequestDetailRequest.cs",
-              "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\Features\\LeaveRequests\\Requests\\Queries\\GetLeaveRequestDetailRequest.cs",
-              "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveRequests\\Requests\\Queries\\GetLeaveRequestDetailRequest.cs",
-              "RelativeToolTip": "HR.LeaveManagement.Application\\Features\\LeaveRequests\\Requests\\Queries\\GetLeaveRequestDetailRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T16:42:49.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LeaveTypeDto.cs",
-              "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveTypeDto.cs",
-              "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\DTOs\\LeaveTypeDto.cs",
-              "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveTypeDto.cs",
-              "RelativeToolTip": "HR.LeaveManagement.Application\\DTOs\\LeaveTypeDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T16:31:55.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetLeaveRequestListRequestHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveRequests\\Handlers\\Queries\\GetLeaveRequestListRequestHandler.cs",
-              "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\Features\\LeaveRequests\\Handlers\\Queries\\GetLeaveRequestListRequestHandler.cs",
-              "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveRequests\\Handlers\\Queries\\GetLeaveRequestListRequestHandler.cs",
-              "RelativeToolTip": "HR.LeaveManagement.Application\\Features\\LeaveRequests\\Handlers\\Queries\\GetLeaveRequestListRequestHandler.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T15:53:12.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetLeaveTypeDetailRequestHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes\\Handlers\\Queries\\GetLeaveTypeDetailRequestHandler.cs",
-              "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\Features\\LeaveTypes\\Handlers\\Queries\\GetLeaveTypeDetailRequestHandler.cs",
-              "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes\\Handlers\\Queries\\GetLeaveTypeDetailRequestHandler.cs",
-              "RelativeToolTip": "HR.LeaveManagement.Application\\Features\\LeaveTypes\\Handlers\\Queries\\GetLeaveTypeDetailRequestHandler.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA4wAgAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T10:17:33.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetLeaveRequestListRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveRequests\\Requests\\Queries\\GetLeaveRequestListRequest.cs",
-              "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\Features\\LeaveRequests\\Requests\\Queries\\GetLeaveRequestListRequest.cs",
-              "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveRequests\\Requests\\Queries\\GetLeaveRequestListRequest.cs",
-              "RelativeToolTip": "HR.LeaveManagement.Application\\Features\\LeaveRequests\\Requests\\Queries\\GetLeaveRequestListRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T15:36:59.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetLeaveTypeDetailRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes\\Requests\\Queries\\GetLeaveTypeDetailRequest.cs",
-              "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\Features\\LeaveTypes\\Requests\\Queries\\GetLeaveTypeDetailRequest.cs",
-              "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes\\Requests\\Queries\\GetLeaveTypeDetailRequest.cs",
-              "RelativeToolTip": "HR.LeaveManagement.Application\\Features\\LeaveTypes\\Requests\\Queries\\GetLeaveTypeDetailRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T19:59:07.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetLeaveTypeListRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes\\Requests\\Queries\\GetLeaveTypeListRequest.cs",
-              "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\Features\\LeaveTypes\\Requests\\Queries\\GetLeaveTypeListRequest.cs",
-              "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes\\Requests\\Queries\\GetLeaveTypeListRequest.cs",
-              "RelativeToolTip": "HR.LeaveManagement.Application\\Features\\LeaveTypes\\Requests\\Queries\\GetLeaveTypeListRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T10:25:43.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "GetLeaveTypeListRequestHandler.cs",
               "DocumentMoniker": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes\\Handlers\\Queries\\GetLeaveTypeListRequestHandler.cs",
               "RelativeDocumentMoniker": "HR.LeaveManagement.Application\\Features\\LeaveTypes\\Handlers\\Queries\\GetLeaveTypeListRequestHandler.cs",
               "ToolTip": "C:\\Users\\Michael  Adu-Gyamfi\\Documents\\Leave_Mangament_System\\HR.LeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes\\Handlers\\Queries\\GetLeaveTypeListRequestHandler.cs",
               "RelativeToolTip": "HR.LeaveManagement.Application\\Features\\LeaveTypes\\Handlers\\Queries\\GetLeaveTypeListRequestHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T01:55:44.733Z",
               "EditorCaption": ""
