@@ -481,4 +481,16 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
+# Ignore build artifacts and compiled files.
+*.dll
+*.pdb
+*.cache
+*.json
+
+# Ignore directories related to builds.
+bin/
+obj/
+# Ignore Visual Studio specific files and directories.
+.vs/
+
 # End of https://www.toptal.com/developers/gitignore/api/aspnetcore,vs
