@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HR.LeaveManagement.Application.Reponses
 {
-    public class BaseCommandResponse
+    public class BaseCommandResponse 
     {
         public int Id { get; set; }
         public bool Success { get; set; } = true;

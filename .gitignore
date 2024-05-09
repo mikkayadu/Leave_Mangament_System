@@ -492,5 +492,7 @@ bin/
 obj/
 # Ignore Visual Studio specific files and directories.
 .vs/
+.dll
+.pdb
 
 # End of https://www.toptal.com/developers/gitignore/api/aspnetcore,vs
