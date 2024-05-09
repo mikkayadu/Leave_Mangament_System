@@ -5,9 +5,11 @@ using HR.LeaveManagement.Application.DTOs.LeaveType.Validators;
 using HR.LeaveManagement.Application.Features.LeaveTypes.Requests.Commands;
 using HR.LeaveManagement.Application.Persistence.Contracts;
 using HR.LeaveManagement.Domain;
+using HR.LeaveManagement.Application.Exceptions;
 using MediatR;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -32,7 +34,7 @@ namespace HR.LeaveManagement.Application.Features.LeaveTypes.Handlers.Commands
 
             if (validationResult.IsValid == false)
             {
-                throw new Exception();
+                throw new HR.LeaveManagement.Application.Exceptions.ValidationException(validationResult);
             }
             var leaveType = _mapper.Map<LeaveType>(request.LeaveTypeDto);
             leaveType = await _leaveTypeRepository.Add(leaveType);

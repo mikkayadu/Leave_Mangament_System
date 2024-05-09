@@ -29,7 +29,7 @@ namespace HR.LeaveManagement.Application.Features.LeaveTypes.Handlers.Commands
 
             if (validationResult.IsValid == false)
             {
-                throw new Exception();
+                throw new HR.LeaveManagement.Application.Exceptions.ValidationException(validationResult);
             }
             var leaveType = await _leaveTypeRepository.Get(request.LeaveTypeDto.Id);
             _mapper.Map(request.LeaveTypeDto, leaveType);

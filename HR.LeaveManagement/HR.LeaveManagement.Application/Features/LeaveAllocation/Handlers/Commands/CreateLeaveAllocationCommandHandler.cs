@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using HR.LeaveManagement.Application.DTOs.LeaveAllocation.Validators;
 using HR.LeaveManagement.Application.DTOs.LeaveRequest.Validators;
+using HR.LeaveManagement.Application.Exceptions;
 using HR.LeaveManagement.Application.Features.LeaveAllocation.Requests.Commands;
 using HR.LeaveManagement.Application.Persistence.Contracts;
 using HR.LeaveManagement.Domain;
@@ -33,7 +34,7 @@ namespace HR.LeaveManagement.Application.Features.LeaveAllocation.Handlers.Comma
 
             if (validationResult.IsValid == false)
             {
-                throw new Exception();
+                throw new ValidationException(validationResult);
             }
             var leaveAllocation = _mapper.Map<HR.LeaveManagement.Domain.LeaveAllocation>(request.LeaveAllocationDto);
             leaveAllocation = await _leaveAllocationRepository.Add(leaveAllocation);  
