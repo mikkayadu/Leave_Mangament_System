@@ -1,5 +1,7 @@
 ﻿using HR.LeaveManagement.Application.Profiles;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -15,13 +17,15 @@ namespace HR.LeaveManagement.Application
     {
         public static IServiceCollection ConfigureApplicationServices(this IServiceCollection services)
         {
-            services.AddAutoMapper(Assembly.GetExecutingAssembly());
-            services.AddMediatR(Assembly.GetExecutingAssembly());
+           services.AddAutoMapper(Assembly.GetExecutingAssembly());
+           services.AddMediatR(Assembly.GetExecutingAssembly());
 
             return services;
        
             
         }
+
+        
 
     }
 }
