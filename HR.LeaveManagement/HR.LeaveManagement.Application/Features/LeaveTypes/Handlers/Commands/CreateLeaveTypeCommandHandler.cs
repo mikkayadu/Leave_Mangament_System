@@ -3,7 +3,7 @@ using FluentValidation;
 using HR.LeaveManagement.Application.DTOs.LeaveRequest.Validators;
 using HR.LeaveManagement.Application.DTOs.LeaveType.Validators;
 using HR.LeaveManagement.Application.Features.LeaveTypes.Requests.Commands;
-using HR.LeaveManagement.Application.Persistence.Contracts;
+using HR.LeaveManagement.Application.Contracts.Persistence;
 using HR.LeaveManagement.Domain;
 using HR.LeaveManagement.Application.Exceptions;
 using MediatR;
