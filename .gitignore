@@ -495,4 +495,7 @@ obj/
 .dll
 .pdb
 
+*.sln
+
+
 # End of https://www.toptal.com/developers/gitignore/api/aspnetcore,vs
