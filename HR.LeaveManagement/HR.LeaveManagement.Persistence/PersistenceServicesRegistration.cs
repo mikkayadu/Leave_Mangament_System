@@ -15,7 +15,7 @@ namespace HR.LeaveManagement.Persistence
     {
         public static IServiceCollection ConfigurePersistenceServices(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<LeaveManagementDbContext>(options =>
+            services.AddEntityFrameworkNpgsql().AddDbContext<LeaveManagementDbContext>(options =>
             options.UseNpgsql(
                 configuration.GetConnectionString("LeaveManagementConnectionString")));
 

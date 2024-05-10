@@ -13,6 +13,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HR.LeaveManagement.Application.Contracts.Persistence.Infrastructure;
+using HR.LeaveManagement.Application.Models;
 
 namespace HR.LeaveManagement.Application.Features.LeaveRequests.Handlers.Commands
 {
@@ -21,10 +23,17 @@ namespace HR.LeaveManagement.Application.Features.LeaveRequests.Handlers.Command
         private readonly ILeaveRequestRepository _leaveRequestRepository;
         private readonly IMapper _mapper;
         private readonly ILeaveTypeRepository _leaveTypeRepository;
-        public CreateLeaveRequestCommandHandler(ILeaveRequestRepository leaveRequestRepository, IMapper mapper)
+        private readonly  IEmailSender _emailSender;
+        public CreateLeaveRequestCommandHandler(ILeaveRequestRepository leaveRequestRepository,
+            IMapper mapper,
+            ILeaveTypeRepository leaveTypeRepository,
+            IEmailSender emailSender
+            )
         {
             _leaveRequestRepository = leaveRequestRepository;
             _mapper = mapper;
+            _leaveTypeRepository = leaveTypeRepository;
+            _emailSender = emailSender;
 
         }
 
@@ -49,6 +58,22 @@ namespace HR.LeaveManagement.Application.Features.LeaveRequests.Handlers.Command
             response.Message = "Creation Successful";
             response.Id = leaveRequest.Id;
 
+            var email = new Email
+            {
+                To = "alacrity@gmail.com",
+                Body = $"Your leave request for {request.LeaveRequestDto.StartDate:D} to {request.LeaveRequestDto.EndDate:D} " +
+                        $"has been submitted successfully.",
+                Subject = "Leave Request Submitted"
+            };
+
+            try
+            {
+                await _emailSender.SendEmail(email);
+            }
+            catch (Exception ex)
+            {
+
+            }
             return response;
 
 
