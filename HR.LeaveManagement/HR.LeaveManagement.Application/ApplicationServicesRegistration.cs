@@ -1,15 +1,8 @@
-﻿using HR.LeaveManagement.Application.Profiles;
+﻿using AutoMapper;
+using HR.LeaveManagement.Application.Profiles;
 using MediatR;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HR.LeaveManagement.Application
 {
@@ -17,15 +10,20 @@ namespace HR.LeaveManagement.Application
     {
         public static IServiceCollection ConfigureApplicationServices(this IServiceCollection services)
         {
-           services.AddAutoMapper(Assembly.GetExecutingAssembly());
-           services.AddMediatR(Assembly.GetExecutingAssembly());
+            // AutoMapper configuration
+            var mapperConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MappingProfile());
+            });
+
+            IMapper mapper = mapperConfig.CreateMapper();
+            services.AddSingleton(mapper);
+
+            // MediatR configuration
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
 
             return services;
-       
-            
         }
-
-        
-
     }
 }
+

@@ -34,7 +34,7 @@ namespace HR.LeaveManagement.Application.Features.LeaveRequests.Handlers.Command
             _mapper = mapper;
             _leaveTypeRepository = leaveTypeRepository;
             _emailSender = emailSender;
-
+            
         }
 
         public async Task<BaseCommandResponse> Handle(CreateLeaveRequestCommand request, CancellationToken cancellationToken)

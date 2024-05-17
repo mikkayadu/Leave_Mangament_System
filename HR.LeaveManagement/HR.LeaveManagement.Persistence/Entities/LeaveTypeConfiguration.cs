@@ -19,8 +19,8 @@ new LeaveType
     Id = 1,
     DefaultDays = 10,
     Name = "Vacation",
-    CreatedBy = "Admin",    // Assuming default values are appropriate
-    LastModifiedBy = "Admin" // Include this to satisfy the model requirements
+    CreatedBy = "Admin",    
+    LastModifiedBy = "Admin" 
 },
 new LeaveType
 {

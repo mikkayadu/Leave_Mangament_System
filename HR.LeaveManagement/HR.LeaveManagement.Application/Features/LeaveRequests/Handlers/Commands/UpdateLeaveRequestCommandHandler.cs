@@ -42,10 +42,10 @@ namespace HR.LeaveManagement.Application.Features.LeaveRequests.Handlers.Command
                 await _leaveRequestRepository.Update(leaveRequest);
 
             }
-            else if (request.ChangLeaveRequestApprovalDto != null)
+            else if (request.ChangeLeaveRequestApprovalDto != null)
             {
                 
-                await _leaveRequestRepository.ChangeApprovalStatus(leaveRequest, request.ChangLeaveRequestApprovalDto.Approved);
+                await _leaveRequestRepository.ChangeApprovalStatus(leaveRequest, request.ChangeLeaveRequestApprovalDto.Approved);
             }
             
 
