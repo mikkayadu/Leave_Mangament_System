@@ -11,10 +11,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HR.LeaveManagement.Application.Reponses;
 
 namespace HR.LeaveManagement.Application.Features.LeaveAllocation.Handlers.Commands
 {
-    public class CreateLeaveAllocationCommandHandler:IRequestHandler<CreateLeaveAllocationCommand, int>
+    public class CreateLeaveAllocationCommandHandler:IRequestHandler<CreateLeaveAllocationCommand, BaseCommandResponse>
     {
         private readonly ILeaveAllocationRepository _leaveAllocationRepository;
         private readonly IMapper _mapper;
@@ -27,18 +28,27 @@ namespace HR.LeaveManagement.Application.Features.LeaveAllocation.Handlers.Comma
 
         }
 
-        public async Task<int> Handle(CreateLeaveAllocationCommand request, CancellationToken cancellationToken)
+        public async Task<BaseCommandResponse> Handle(CreateLeaveAllocationCommand request, CancellationToken cancellationToken)
         {
             var validator = new CreateLeaveAllocationDtoValidator(_leaveTypeRepository);
             var validationResult = await validator.ValidateAsync(request.LeaveAllocationDto);
+            var response = new BaseCommandResponse();
 
             if (validationResult.IsValid == false)
             {
-                throw new ValidationException(validationResult);
+                response.Success = false;
+                response.Message = "Allocations Failed";
+                response.Errors = validationResult.Errors.Select(q => q.ErrorMessage).ToList();
             }
-            var leaveAllocation = _mapper.Map<HR.LeaveManagement.Domain.LeaveAllocation>(request.LeaveAllocationDto);
-            leaveAllocation = await _leaveAllocationRepository.Add(leaveAllocation);  
-            return leaveAllocation.Id;
+            else {
+                var leaveAllocation = _mapper.Map<HR.LeaveManagement.Domain.LeaveAllocation>(request.LeaveAllocationDto);
+                leaveAllocation = await _leaveAllocationRepository.Add(leaveAllocation);
+                response.Success = true;
+                response.Message = "Allocations Successful";
+                response.Id = leaveAllocation.Id;
+            }
+            return response;
+                
         }
     }
 }

@@ -1,13 +1,16 @@
 ﻿using System.Net.Http;
-using HR.LeaveManagement.MVC.Services;
 
-
-namespace HR.LeaveManagement.MVC.Services.Base
-
-
+namespace HR.LeaveManagement._MVC.Services.Base
 {
-    public partial class Client:IClient
-    { 
+    public partial class Client : IClient
+    {
+        private readonly HttpClient _httpClient;
+
+        public Client(HttpClient httpClient)
+        {
+            _httpClient = httpClient;
+        }
+
         public HttpClient HttpClient
         {
             get

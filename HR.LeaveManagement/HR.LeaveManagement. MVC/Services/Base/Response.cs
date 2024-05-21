@@ -1,4 +1,4 @@
-﻿namespace HR.LeaveManagement._MVC.Services.Base
+﻿namespace HR.LeaveManagement.MVC.Services.Base
 {
     public class Response<T>
     {

@@ -45,7 +45,7 @@ namespace HR.LeaveManagement.Application.Features.LeaveRequests.Handlers.Command
 
             if (validationResult.IsValid == false)
             {
-                response.Success = true;
+                response.Success = false;
                 response.Message = "Creation Failed";
                 response.Errors = validationResult.Errors.Select(q=>q.ErrorMessage).ToList();
                 
