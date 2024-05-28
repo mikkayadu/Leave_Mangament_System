@@ -38,6 +38,11 @@ namespace HR.LeaveManagement.API
 
             app.UseAuthorization();
 
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapControllers();
+            //});
+
 
             app.MapControllers();
 

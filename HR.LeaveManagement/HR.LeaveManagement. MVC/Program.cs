@@ -1,9 +1,11 @@
-using HR.LeaveManagement._MVC.Contracts;
-using HR.LeaveManagement._MVC.Services;
-using HR.LeaveManagement._MVC.Services.Base;
-using HR.LeaveManagement.MVC.Services.Base;
-using System.Reflection;
-namespace HR.LeaveManagement._MVC
+using AutoMapper;
+using HR.LeaveManagement.Application.DTOs.LeaveType;
+using HR.LeaveManagement.MVC.Contracts;
+using HR.LeaveManagement.MVC.Models;
+using HR.LeaveManagement.MVC.Services;
+
+
+namespace HR.LeaveManagement.MVC
 {
     public class Program
     {
@@ -14,16 +16,28 @@ namespace HR.LeaveManagement._MVC
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            builder.Services.AddHttpClient <HR.LeaveManagement._MVC.Services.Base.IClient, HR.LeaveManagement._MVC.Services.Base.Client > (cl=>
-            cl.BaseAddress = new Uri("https://localhost:44354"));
+            // Register HttpClient
+            builder.Services.AddHttpClient<HR.LeaveManagement.MVC.Services.Base.IClient, HR.LeaveManagement.MVC.Services.Base.Client>(cl =>
+            {
+                cl.BaseAddress = new Uri("https://localhost:7264");
+            });
+            
 
-            builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            // Register AutoMapper
+            var mapperConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile<MappingProfile>();
+                mc.AddProfile(new MappingProfile());
+            });
+
+            IMapper mapper = mapperConfig.CreateMapper();
+            builder.Services.AddSingleton(mapper);
+
+            // Register services
             builder.Services.AddScoped<ILeaveTypeService, LeaveTypeService>();
             builder.Services.AddScoped<ILeaveAllocationService, LeaveAllocationService>();
             builder.Services.AddScoped<ILeaveRequestService, LeaveRequestService>();
-
             builder.Services.AddSingleton<ILocalStorageService, LocalStorageService>();
-
 
             var app = builder.Build();
 
@@ -31,15 +45,12 @@ namespace HR.LeaveManagement._MVC
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
-
             app.UseAuthorization();
 
             app.MapControllerRoute(

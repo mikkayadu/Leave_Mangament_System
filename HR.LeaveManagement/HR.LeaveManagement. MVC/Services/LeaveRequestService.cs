@@ -1,6 +1,6 @@
-﻿using HR.LeaveManagement._MVC.Contracts;
+﻿using HR.LeaveManagement.MVC.Contracts;
 
-namespace HR.LeaveManagement._MVC.Services
+namespace HR.LeaveManagement.MVC.Services
 {
     public class LeaveRequestService:ILeaveRequestService
     {

@@ -1,4 +1,4 @@
-﻿using HR.LeaveManagement._MVC.Contracts;
+﻿using HR.LeaveManagement.MVC.Contracts;
 using HR.LeaveManagement.MVC.Services.Base;
 using System.Net.Http.Headers;
 
@@ -17,7 +17,7 @@ namespace HR.LeaveManagement.MVC.Services.Base
 
         }
 
-        protected Response<Guid> ConvertApiExceptions<Guid>(ApiException ex)
+        public Response<Guid> ConvertApiExceptions<Guid>(ApiException ex)
         {
             if (ex.StatusCode == 400)
             {

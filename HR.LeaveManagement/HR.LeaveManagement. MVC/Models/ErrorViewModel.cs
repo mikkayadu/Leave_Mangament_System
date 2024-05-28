@@ -1,4 +1,4 @@
-namespace HR.LeaveManagement._MVC.Models
+ namespace HR.LeaveManagement.MVC.Models
 {
     public class ErrorViewModel
     {
