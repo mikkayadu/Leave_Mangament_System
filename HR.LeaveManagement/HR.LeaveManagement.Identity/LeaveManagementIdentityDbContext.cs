@@ -1,4 +1,5 @@
-﻿using HR.LeaveManagement.Identity.Models;
+﻿using HR.LeaveManagement.Identity.Configurations;
+using HR.LeaveManagement.Identity.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
