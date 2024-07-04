@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+﻿ using AutoMapper;
 using HR.LeaveManagement.MVC.Contracts;
 using HR.LeaveManagement.MVC.Models;
 using HR.LeaveManagement.MVC.Services.Base;
@@ -49,14 +49,15 @@ namespace HR.LeaveManagement.MVC.Services
             catch (ApiException ex)
             {
                 return ConvertApiExceptions<int>(ex);
-            }
+            } 
         }
 
         public async Task<List<LeaveTypeVM>> GetLeaveTypes()
         {
             var leaveTypes = await _client.LeaveTypeAllAsync();
             
-            List<LeaveTypeVM> leaveTypeVMs = _mapper.Map<System.Collections.Generic.ICollection<HR.LeaveManagement.MVC.Services.Base.LeaveTypeDto>, List<LeaveTypeVM>>(leaveTypes);
+            List<LeaveTypeVM> leaveTypeVMs = _mapper.Map<
+                 System.Collections.Generic.ICollection<HR.LeaveManagement.MVC.Services.Base.LeaveTypeDto>, List<LeaveTypeVM>>(leaveTypes);
 
             return leaveTypeVMs;
         }
@@ -65,7 +66,7 @@ namespace HR.LeaveManagement.MVC.Services
         {
             
             var leaveType = await _client.LeaveTypeGETAsync(id);
-            return _mapper.Map<LeaveTypeVM>(leaveType);
+            return _mapper.Map<LeaveTypeVM>(leaveType); 
         }
 
         
