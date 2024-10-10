@@ -43,4 +43,5 @@ namespace HR.LeaveManagement.Identity.Configurations
             );
 
         }
+    }
 }
