@@ -10,8 +10,8 @@ namespace HR.LeaveManagement.Application.DTOs.LeaveType
     {
         public string Name { get; set; }
         public int DefaultDays { get; set; }
-        //public string CreatedBy {  get; set; }
-        //public string LastModifiedBy { get; set; }
-        
+        public string CreatedBy { get; set; }
+        public string LastModifiedBy { get; set; }
+
     }
 }
