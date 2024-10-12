@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace HR.LeaveManagement.API.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    [ApiController] 
     [Authorize]
     public class LeaveTypeController : ControllerBase
     {
