@@ -104,6 +104,6 @@ namespace HR.LeaveManagement.MVC.Controllers
 
             return BadRequest();
         }
-        // Other actions (Details, Create, Edit, Delete) remain unchanged
+   
     }
 }
