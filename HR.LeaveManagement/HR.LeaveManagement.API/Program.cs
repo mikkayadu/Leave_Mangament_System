@@ -56,7 +56,7 @@ namespace HR.LeaveManagement.API
                     }
                 });
 
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "HR Leave Mang" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "HR Leave Mang" , Version = "1.0.0"});
             }
             );
             

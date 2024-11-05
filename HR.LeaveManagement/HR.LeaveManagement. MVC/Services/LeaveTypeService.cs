@@ -84,7 +84,7 @@ namespace HR.LeaveManagement.MVC.Services
             {
                 return ConvertApiExceptions<int>(ex);
             }
-        }
+        }  
 
         public async Task<Response<int>> DeleteLeaveType(int id)
         {

@@ -3,6 +3,8 @@ using HR.LeaveManagement.Application.DTOs.LeaveType;
 using HR.LeaveManagement.MVC.Contracts;
 using HR.LeaveManagement.MVC.Models;
 using HR.LeaveManagement.MVC.Services;
+using HR.LeaveManagement.MVC.Services.Base;
+using NuGet.Configuration;
 
 
 namespace HR.LeaveManagement.MVC
@@ -16,12 +18,17 @@ namespace HR.LeaveManagement.MVC
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            // Register HttpClient
-            builder.Services.AddHttpClient<HR.LeaveManagement.MVC.Services.Base.IClient, HR.LeaveManagement.MVC.Services.Base.Client>(cl =>
+            //Register HttpClient
+            builder.Services.AddHttpClient<HR.LeaveManagement.MVC.Services.Base.IClient, HR.LeaveManagement.MVC.Services.Base.Client>((httpClient, serviceProvider) =>
             {
-                cl.BaseAddress = new Uri("https://localhost:7264");
+                // Set the base address for the HttpClient
+                string baseUrl = "https://localhost:7264";  // You could also fetch this from configuration
+                var client = new HR.LeaveManagement.MVC.Services.Base.Client(baseUrl, httpClient);
+                return client;
             });
-            
+
+
+
 
             // Register AutoMapper
             var mapperConfig = new MapperConfiguration(mc =>
