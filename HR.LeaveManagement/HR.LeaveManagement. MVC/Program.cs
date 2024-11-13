@@ -4,6 +4,7 @@ using HR.LeaveManagement.MVC.Contracts;
 using HR.LeaveManagement.MVC.Models;
 using HR.LeaveManagement.MVC.Services;
 using HR.LeaveManagement.MVC.Services.Base;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using NuGet.Configuration;
 
 
@@ -18,6 +19,14 @@ namespace HR.LeaveManagement.MVC
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddHttpContextAccessor();
+
+            builder.Services.Configure<CookiePolicyOptions>(options =>
+            {
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
             //Register HttpClient
             builder.Services.AddHttpClient<HR.LeaveManagement.MVC.Services.Base.IClient, HR.LeaveManagement.MVC.Services.Base.Client>((httpClient, serviceProvider) =>
             {
@@ -27,7 +36,7 @@ namespace HR.LeaveManagement.MVC
                 return client;
             });
 
-
+            
 
 
             // Register AutoMapper
@@ -46,6 +55,8 @@ namespace HR.LeaveManagement.MVC
             builder.Services.AddScoped<ILeaveRequestService, LeaveRequestService>();
             builder.Services.AddSingleton<ILocalStorageService, LocalStorageService>();
 
+            builder.Services.AddTransient<IAuthenticationService, AuthenticationService>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -59,6 +70,16 @@ namespace HR.LeaveManagement.MVC
             app.UseStaticFiles();
             app.UseRouting();
             app.UseAuthorization();
+            app.UseAuthentication();
+            app.UseCookiePolicy();
+
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+            });
 
             app.MapControllerRoute(
                 name: "default",
